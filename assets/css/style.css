@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+header{
+    background-color: aqua;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.container-80{
+    width: 80%;
+    margin: auto;
+}
+
+div ul li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 15px;
+}
+
+nav div img{
+    padding: 15px;
+}
+
+#list{
+    display: none;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+                /* MAIN */
+
+.card{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: skyblue;
+    text-align: center;
+    border-radius: 25px;
+}   
+
+.card a{
+    background-color: blue;
+    color: white;
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card div>img{
+    width: 70%;
+    display: inline;
+}
+
+.card p{
+    line-height: 1.4;
+    padding: 20px 0;
+}
+
+.blue{
+    color: blue;
+    font-size: 100px;
+}
+
+.blue-title{
+    color: blue;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.bg-violet{
+    background-color: #9792e4;
+    margin-top: 50px;
+}
+
+.t-center{
+    text-align: center;
+}
+
+#white-card{
+    background-color: white;
+    border-radius: 60px;
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+}
+
+
+.space{
+    margin: 40px 0;
+    
+    color: white;
+}
+
+.space h2{
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.space p{
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.box{
+    padding: 25px ;
+}
+
+.box h2{
+    color: #9792e4;
+    padding: 15px 0;
+    font-size: 30px;
+}
+
+.box p{
+    line-height: 1.5;
+}
+
+.violet-card{
+    background-color: #9792e4;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 20px 0;
+    color: white;
+}
+
+.circle img{
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    margin: auto; 
+ } 
+
+ .violet-card .t-center{
+    line-height: 1.6;
+    padding: 30px;
+ }
+
+.head-w-card{
+    color: white;
+    font-size: 30px;
+    margin: 25px 0;
+    padding-top: 20px;
+}
+
+ .white-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+ }
+
+ .violet-h{
+    color: #9792e4;
+    font-size: 50px;
+    margin: 20px 0;
+ }
+
+ .violet-sub-h{
+    color: #9792e4;
+    font-size: 25px;
+    margin-bottom: 15px;
+ }
+
+ .white-card p{
+    line-height: 1.7;
+    font-size: 20px;
+ }
+
+ .white-card a{
+    text-decoration: none;
+    color: white;
+    background-color: #9792e4;
+    padding: 10px;
+    display: block;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px 0;
+ }
+
+ #rik img{
+    border-radius: 50%;
+    width: 50%;
+ }
+
+ #rik i{
+    top: 0;
+    right: 50%;
+    font-size: 50px;
+    color: #9792e4;
+ }
+
+ #section-rik p{
+    padding: 20px 0;
+    line-height: 1.5;
+ }
+
+ #section-rik a{
+    background-color: #9792e4;
+    color: white;
+    width: 50%;
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+ }
+
+ #section-text{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+ }
+
+ #section-text h2{
+    padding: 15px 0;
+ }
+
+ #section-text h1{
+    color: rgb(211, 211, 45);
+    font-size: 60px;
+    padding: 15px 0;
+ }
+
+ #section-text p{
+    line-height: 1.5;
+    padding:15px 0;
+ }
+
+ #section-text> a{
+    background-color: white;
+    color: #9792e4;
+    padding: 15px;
+    border-radius: 20px;
+    display: block;
+    width: 60%;
+    margin: auto;
+    text-decoration: none;
+    
+ }
+
+.bg-grey{
+    background-color: rgb(59, 59, 59);
+}
+
+ #section-text-2{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+ }
+
+ #section-text-2 p{
+    line-height: 1.5;
+    padding:15px 0;
+ }
