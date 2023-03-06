@@ -74,8 +74,8 @@ nav div img{
 }
 
 .card div>img{
-    width: 70%;
     display: inline;
+    width: 80%;
 }
 
 .card p{
@@ -85,12 +85,12 @@ nav div img{
 
 .blue{
     color: blue;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .blue-title{
     color: blue;
-    font-size: 50px;
+    font-size: 1em;
     margin: 10px 0;
 }
 
@@ -206,17 +206,25 @@ nav div img{
     margin: 20px 0;
  }
 
- #rik img{
-    border-radius: 50%;
-    width: 50%;
- }
 
- #rik i{
-    top: 0;
-    right: 50%;
-    font-size: 50px;
+
+ .img-sec-5{
+    position: relative;
+    background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}
+
+.img-sec-5 i{
+    position: absolute;
+    right: 0;
     color: #9792e4;
- }
+    font-size: 3em;
+}
 
  #section-rik p{
     padding: 20px 0;
@@ -282,4 +290,85 @@ nav div img{
  #section-text-2 p{
     line-height: 1.5;
     padding:15px 0;
+ }
+
+ /* MEDIA QUERY */
+
+ /* TABLET */
+
+ @media  screen and (min-width: 480px) {
+        .sezione-1{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1em;
+            padding:0;
+            margin: 1em auto;
+
+        }
+
+        .card{
+            flex-basis: calc(90% / 3);
+            margin: 0;
+            padding: 0;
+        }
+
+        .card-1{
+            flex:1 0 calc(90% / 2);
+        }
+
+        .violet-card{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .violet-card .t-center{
+            text-align: left;
+        }
+
+        #sezione-benefit{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap:5px;
+        }
+
+        .white-card{
+            flex-basis: calc(98% / 2);
+        }
+
+        #section-rik{
+            display: flex;
+            
+        }
+ }
+
+
+ /* DESKTOP */
+
+ @media screen and (min-width: 1140px) {
+        .card-1{
+            display: flex;           
+        }
+
+        .bg-violet{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .bg-violet div img{
+            width: 50%;
+        }
+
+        .planning{
+            width: 30%;
+        }
+
+        .white-card{
+            width: 20%;
+        }
+
+
+        
+    
  }
